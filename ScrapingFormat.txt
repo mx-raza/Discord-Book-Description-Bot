@@ -1,0 +1,24 @@
+Good Reads:
+
+Book Title: <h1 #bookTitle innerText>
+Author: <a .authorName innerText> // Can have multiple authors. All named in the same class tag.
+Genres: <a .bookPageGenreLink innerText> // May contain duplicates.
+Rating: <div #bookMeta innerText> // contains more than just the rating value
+        Or <span itemprop="ratingValue" innerText>
+        <meta itemprop="ratingCount" content/innerText>
+        <meta itemprop="reviewCount" content/innerText>
+Bookcover: <div .bookCoverPrimary> <a src/>
+Description: <div #description> <2span innerText> //Has a <a> containing the ID. Some Books have no description.
+
+
+The Story Graph:
+
+Search Results link: <div .book-pane-content> <div> <div> <a href> // None of .book-pane-content means no Results
+Content Warning: <div .content-warnings-information> // Need to bolden categories
+Title&Author: <div .book-title-author-and-series innerText>
+
+
+
+Embed:
+
+embed.set_image(image2)
